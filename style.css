@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 .hero {
   height: 100vh; /* ekranın tamamını kapla */
   background: linear-gradient(rgba(7, 16, 33, 0.8), rgba(7, 21, 38, 0.9)),
-              url('images/IMG_3134.PNG') center/cover no-repeat;
+              url('images/res4.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
