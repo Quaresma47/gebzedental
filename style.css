@@ -68,9 +68,10 @@ h1, h2, h3, h4, h5 {
   margin-top: 0.5rem;
 }
 .hero {
-  height: 100vh; /* ekranın tamamını kapla */
+  height: 100vh;
+  /* 'cover' yerine 'contain' yazdık */
   background: linear-gradient(rgba(7, 16, 33, 0.8), rgba(7, 21, 38, 0.9)),
-              url('images/4res.jpg') center/cover no-repeat;
+              url('images/4res.jpg') center/contain no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
