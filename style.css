@@ -69,9 +69,17 @@ h1, h2, h3, h4, h5 {
 }
 .hero {
   height: 100vh;
-  /* 'cover' yerine 'contain' yazdık */
-  background: linear-gradient(rgba(7, 16, 33, 0.8), rgba(7, 21, 38, 0.9)),
-              url('images/4res.jpg') center/contain no-repeat;
+  /* Gradyan ve görseli ayırdık daha net kontrol için */
+  background-image: linear-gradient(rgba(7, 16, 33, 0.9), rgba(7, 21, 38, 0.95)), /* Gradyanı biraz koyulaştırdım */
+                    url('images/4res.jpg');
+  
+  /* Görselin ne kadar büyüklükte olacağını belirleyin. Örn: Ekran genişliğinin %25'i */
+  background-size: 25%;  /* Bu değeri artırıp azaltarak dişlerin boyutunu ayarlayın */
+  
+  /* Görselin tekrar etmesini sağla */
+  background-repeat: repeat;
+  background-position: center;
+
   display: flex;
   align-items: center;
   justify-content: center;
